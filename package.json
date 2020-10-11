@@ -1,0 +1,27 @@
+{
+  "name": "teamroster",
+  "version": "1.0.0",
+  "description": "App for building team roster using user input",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-mims/TeamRoster.git"
+  },
+  "author": "t-mims",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t-mims/TeamRoster/issues"
+  },
+  "homepage": "https://github.com/t-mims/TeamRoster#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "jest": "^26.5.3"
+  }
+}
