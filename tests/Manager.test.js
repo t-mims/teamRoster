@@ -1,5 +1,15 @@
 const Manager = require("../lib/Manager");
 const Employee = require("../lib/Employee");
+test("Can set name, id, and email via the Employee constructor argument",()=>{
+  const name="Jane";
+  const id= "2";
+  const email="tester@test.com";
+  const employee= new Employee(name,id,email);
+  expect(employee.getName()).toBe(name);
+  expect(employee.getId()).toBe(id);
+  expect(employee.getEmail()).toBe(email);
+
+});
 
 test("Can set office number via constructor argument", () => {
   const testValue = 100;
